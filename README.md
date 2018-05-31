@@ -13,32 +13,37 @@ Procedures declarations
 Main program block
 Statements and Expressions within each block
 Comments
-Every pascal program generally has a heading statement, a declaration and an execution part strictly in that order. Following format shows the basic syntax for a Pascal program −
+Every pascal program generally has a heading statement, a declaration and an execution part strictly in that order.
+Following format shows the basic syntax for a Pascal program −
 
-program {name of the program}
-uses {comma delimited names of libraries you use}
-const {global constant declaration block}
-var {global variable declaration block}
+program {name of the program};
+uses {comma delimited names of libraries you use};
+const {global constant declaration block};
+var {global variable declaration block};
 
-function {function declarations, if any}
-{ local variables }
+function {function declarations, if any};
+{ local variables };
+
 begin
-...
-end;
+ ...
+end.
 
-procedure { procedure declarations, if any}
-{ local variables }
+procedure { procedure declarations, if any};
+{ local variables };
 begin
-...
-end;
+ ...
+end.
 
 begin { main program block starts}
-...
+ ...
 end. { the end of main program block }
+
+
+
+
 Pascal Hello World Example
 Following is a simple pascal code that would print the words "Hello, World!" −
 
- Live Demo
 program HelloWorld;
 uses crt;
 
@@ -47,6 +52,9 @@ begin
    writeln('Hello, World!');
    readkey;
 end. 
-This will produce following result −
+
+
+
+This will produce following result on the terminal −
 
 Hello, World!
